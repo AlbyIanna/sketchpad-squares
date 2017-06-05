@@ -1,0 +1,33 @@
+#wrapper{
+margin: 10px auto;
+text-align: center;
+
+}
+
+#container{
+	margin: 20px auto;
+	border: solid 3px black;
+	width: 320px;
+	height: 320px;
+}
+
+.square {
+	background-color: #999;
+	width: 20px;
+	height: 20px;
+	float:left;
+}
+
+.row{
+	width:100%;
+	height: 20px;
+}
+
+.active {
+	background-color: #007;
+
+}
+
+.hovered{
+	background-color: #003;
+}
