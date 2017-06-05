@@ -26,10 +26,10 @@ $(document).ready(function() {
 function clear_and_rebuild(num) {
 	var container = $("#container");
 	container.empty();
-	$(".row").css("height", container.height()/num);
 
 	for(i=0;i<num;i++){
 		var newRow = $("<div class='row' id='row-" + i + "'></div>");
+		newRow.css("height", container.height()/num +"px")
 		container.append(newRow);
 		for(j=0;j<num;j++){
 			var newSquare = $("<div class='square' id='sq-" + j + "'></div>");
